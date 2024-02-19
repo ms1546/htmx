@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hono with Bun and HTMX</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>Hono with Bun and HTMX</h1>
+    <button hx-get="/get-data" hx-trigger="click" hx-target="#content">Load Content</button>
+    <div id="content">
+
+    </div>
+</body>
+</html>
